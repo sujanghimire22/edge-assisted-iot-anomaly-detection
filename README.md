@@ -4,14 +4,23 @@ This repository contains the experimental implementation used in the dissertatio
 
 *“Edge-Assisted Anomaly Detection Framework for Securing Smart Home IoT Devices.”*
 
-The experiments are implemented in a Jupyter Notebook (`.ipynb`) and evaluate Random Forest, Autoencoder, and Isolation Forest models using the Edge-IIoTset flow-based dataset.
+The experiments were implemented in a Jupyter Notebook (`.ipynb`) and executed using Visual Studio Code.
 
-## Repository Contents
-- Data preprocessing and feature scaling steps  
-- Model training and evaluation code  
-- Generated figures (confusion matrices, ROC curves, F1-score comparison)  
-- Summary result tables  
+## Dataset
+The Edge-IIoTset dataset is not included in this repository due to its large size.
+It is publicly available on Kaggle:
 
-All results reported in the dissertation can be reproduced by executing the notebook.
+https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot
 
-This repository is provided **for academic verification and reference purposes only**.
+From the dataset, the folder **“Selected dataset for ML and DNN”** was used.
+All experiments in this repository are based exclusively on:
+
+`ML-EdgeIIoT-dataset.csv`
+
+## Contents
+- Data preprocessing and feature scaling  
+- Random Forest, Autoencoder, and Isolation Forest models  
+- Evaluation metrics and visualisations  
+- Reproducible experimental results  
+
+This repository is provided for academic verification and reference purposes only.
